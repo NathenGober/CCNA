@@ -1,7 +1,7 @@
 # CCNA
 Study Material in preparation for the CCNA Certification.
 # 1.0 Network Fundamentals
-1.1 Explain the role and function of network components 
+## 1.1 Explain the role and function of network components 
 1.1a Routers
 1.1.b Layer 2 and Layer 3 Switches
 1.1.c Next-generation firewalls and IPS
