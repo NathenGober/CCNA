@@ -13,6 +13,7 @@ Next-generation firewalls and Intrusion Prevention Systems (IPS) are critical fo
 
 Next-Generation Firewalls (NGFW) combine traditional firewall capabilities with more sophisticated detection and prevention technologies to address a broader range of security threats. 
 
+
 - Application Awareness & Control: identify and control applications regardless of port, protocol, or encryption method
 - Integrated Intrusion Prevention System (IPS): built-in IPS functionality to detect and prevent network threats
 - Advanced Threat Protection: offers advanced protection features like sandboxing, which allows suspicious files to be executed in a controlled environment to observe their behavior and detect advanced malware and zero-day exploits.
@@ -21,7 +22,9 @@ Next-Generation Firewalls (NGFW) combine traditional firewall capabilities with 
 - Content Filtering and Data Loss Prevention (DLP): filer web content and prevent access to malicious or inappropriate websites.
 - Threat Intelligence Integration: integrate with threat intelligence services to receive real-time updates on emerging threats, ensuring that the firewall can recognize and block the latest attack methods.
 
+
 Intrusion Preventing System (IPS) is focused on detecting and preventing network threats in real-time. It is designed to monitor network traffic and take immediate action to block or mitigate malicious activity. 
+
 
 - Traffic Monitoring and Analysis: continuously monitors network traffic for signs of malicious activity.
 - Threat Detection and Prevention: take various actions such as dropping malicious packets, blocking traffic from specific IP addresses, resetting connections, or alerting network administrators.
@@ -30,9 +33,12 @@ Intrusion Preventing System (IPS) is focused on detecting and preventing network
 - Protocol Analysis: can analyze network protocols to ensure they conform to expected behavior.
 - Integration with Security Ecosystem: can integrate with other security devices and systems, such as firewalls, SIEM (Security Information and Event Management) systems, and endpoint protection solutions, to provide a coordinated response to threats.
 
+
 NGFWs and IPS work together to provide layered security. NGFWs may handle application control, SSL inspection, and basic IPS functions, while dedicated IPS devices can provide deeper inspection and more granular control over network traffic.
+
 ### 1.1.d Access points
 Access points (APs) enable devices to connect to a network wirelessly, providing mobility and flexibility for users usually in wireless local area networks (WLANs).
+
 
 - Wireless Connectivity to devices
 - Network Extension: connect to wired network and provide signal to areas where cabling is impractical
@@ -45,10 +51,12 @@ Access points (APs) enable devices to connect to a network wirelessly, providing
 - Quality of Service (QoS) - prioritize types of traffic to ensure critical applications receive sufficient bandwidth and reduce latency
 - Mesh Networking: multiple APs form a network of interconnected nodes for dynamic route optimization and redundancy, which enhances coverage and reliability
 
+
 ### 1.1.e Controllers (Cisco DNA Center and WLC)
 Controllers like Cisco DNA Center and Wireless LAN Controllers (WLC) provide centralized control, automation, monitoring, and optimization of network resources.
 
 Cisco DNA Center is a network management and command center for Cisco's Digital Network Architecture (DNA). It provides a comprehensive solution for managing and automating network operations, enhancing visibility, and ensuring network security.
+
 
 - Network Automation: supports Zero-Touch Provisioning (ZTP) and configuration of new devices
 - Policy-based Management: centralized approach for network policies
@@ -59,8 +67,10 @@ Cisco DNA Center is a network management and command center for Cisco's Digital 
 - Simplified Management: unified interface for wired and wireless networks
 
 
+
 Wireless LAN Controllers (WLC) are responsible for centralizing the management and control of wireless access points (APs) in a network. They provide a single point of control for all APs, ensuring consistent configuration, security, and performance across the wireless network.
     
+
 - Centralized Management: manage multiple APs from a single interface
 - Dynamic RF Management: automatically adjusting channel assignments and power levels of APs to minimize interference and maximize coverage
 - Seamless Routing: client roaming between APs within the same network
@@ -70,12 +80,14 @@ Wireless LAN Controllers (WLC) are responsible for centralizing the management a
 - Monitoring & Troubleshooting: real-time monitoring and troubleshooting of wireless network
 - Scalability: manage a large numbers of APs making them suitable for enterprise environments
 
+
 Cisco DNA Center provides a holistic management solution for both wired and wireless networks, focusing on automation, policy-based management, and advanced analytics.
 WLCs specifically manage wireless networks, providing centralized control over APs and ensuring seamless wireless connectivity and security.
 Cisco DNA Center can integrate with WLCs to provide a unified management platform for both wired and wireless networks. This integration allows for comprehensive network visibility, policy enforcement, and automation across all network segments.
 
 ### 1.1.f Endpoints
 Endpoints refer to devices that connect to and interact with the network. These devices are critical as they are the primary points of access for users and applications to interact with network services and resources. 
+
 - User Interaction: how users interact with the network
 - Data Generation & Consumption: produce data that is transmitted across the network and receive data from other network devices
 - Network Edge Participation: help to determine the network's edge performance and security
@@ -87,14 +99,18 @@ Endpoints refer to devices that connect to and interact with the network. These 
 - Resource Utilization: utilize resources like bandwidth, storage, and processing power
 - Peripheral Connectivity
 
+
 ### 1.1.g Servers
 Servers provide various services and resources to client devices. They are powerful computers designed to manage, store, process, and deliver data to other computers (clients) over a network. 
+
 - Centralized Resource Management
 - Data Storage & Management
 - Application Hosting: allows multiple users to access and use applications simultaneuosly
 - Network Control Management: user authentication, network configuration, & resource allocation
 
+
 Features
+
 - File & Print Services
 - Web Hosting
 - Database Management
@@ -106,23 +122,29 @@ Features
 - Remote Access
 - Monitoring & Management
 
+
 Types of Servers
+
 - Dedicated Servers: dedicated to a single task or service
 - Virtual Servers: virtualized instances of servers running on a physical host
 - Cloud Servers: accessible over internet 
 - Blade Servers: modular servers that fit into a chassis
+
 ### 1.1.h PoE
 Power over Ethernet (PoE) allows ethernet cables to carry electrical power in addition to data. This innovation simplifies network design and reduces the need for additional power supplies and outlets.
+
 - Simplified Cabling 
 - Cost Reduction
 - Flexibility & Scalability
 - Enhanced Network Reliability: can be backed up by uninterruptible power supplies (UPS) ensuring that devices remain operational during outage.
+
 
 Functions
 - Power Delivery: over Cat5e and above
 - Data Transmission
 - Device Compatibility: APs, IP Cameras, VoIP phones, network switches, IoT devices
 - Power Management
+
 
 ### OSI Model
 Physical Layer (Layer 1) - deals with the physical aspects of transmitting data over a physical medium, such as cables, fibers, or wireless signals. It defines characteristics like voltage levels, data rates, physical connectors, and transmission distances. Ex. Network Interface Cards (NICs), hubs, repeaters
