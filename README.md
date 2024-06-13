@@ -12,23 +12,28 @@ Layer 3 switches operate at both the Data Link layer (Layer 2) and the Network l
 Next-generation firewalls and Intrusion Prevention Systems (IPS) are critical for modern network security.
 
 Next-Generation Firewalls (NGFW) combine traditional firewall capabilities with more sophisticated detection and prevention technologies to address a broader range of security threats. 
-    - Application Awareness & Control: identify and control applications regardless of port, protocol, or encryption method
-    - Integrated Intrusion Prevention System (IPS): built-in IPS functionality to detect and prevent network threats
-    - Advanced Threat Protection: offers advanced protection features like sandboxing, which allows suspicious files to be executed in a controlled environment to observe their behavior and detect advanced malware and zero-day exploits.
-    - SSL/TLS Inspection: inspect encrypted traffic by decrypting SSL/TLS connections.
-    - User Identity Awareness: enforce policies based on user identity rather than just IP addresses.
-    - Content Filtering and Data Loss Prevention (DLP): filer web content and prevent access to malicious or inappropriate websites.
-    - Threat Intelligence Integration: integrate with threat intelligence services to receive real-time updates on emerging threats, ensuring that the firewall can recognize and block the latest attack methods.
+
+- Application Awareness & Control: identify and control applications regardless of port, protocol, or encryption method
+- Integrated Intrusion Prevention System (IPS): built-in IPS functionality to detect and prevent network threats
+- Advanced Threat Protection: offers advanced protection features like sandboxing, which allows suspicious files to be executed in a controlled environment to observe their behavior and detect advanced malware and zero-day exploits.
+- SSL/TLS Inspection: inspect encrypted traffic by decrypting SSL/TLS connections.
+- User Identity Awareness: enforce policies based on user identity rather than just IP addresses.
+- Content Filtering and Data Loss Prevention (DLP): filer web content and prevent access to malicious or inappropriate websites.
+- Threat Intelligence Integration: integrate with threat intelligence services to receive real-time updates on emerging threats, ensuring that the firewall can recognize and block the latest attack methods.
+
 Intrusion Preventing System (IPS) is focused on detecting and preventing network threats in real-time. It is designed to monitor network traffic and take immediate action to block or mitigate malicious activity. 
-    - Traffic Monitoring and Analysis: continuously monitors network traffic for signs of malicious activity.
-    - Threat Detection and Prevention: take various actions such as dropping malicious packets, blocking traffic from specific IP addresses, resetting connections, or alerting network administrators.
-    - Signature-Based Detection: relies on a database of known attack signatures to detect threats.
-    - Anomaly-Based Detection: can detect unusual patterns in network traffic that may indicate a new or unknown attack.
-    - Protocol Analysis: can analyze network protocols to ensure they conform to expected behavior.
-    - Integration with Security Ecosystem: can integrate with other security devices and systems, such as firewalls, SIEM (Security Information and Event Management) systems, and endpoint protection solutions, to provide a coordinated response to threats.
+
+- Traffic Monitoring and Analysis: continuously monitors network traffic for signs of malicious activity.
+- Threat Detection and Prevention: take various actions such as dropping malicious packets, blocking traffic from specific IP addresses, resetting connections, or alerting network administrators.
+- Signature-Based Detection: relies on a database of known attack signatures to detect threats.
+- Anomaly-Based Detection: can detect unusual patterns in network traffic that may indicate a new or unknown attack.
+- Protocol Analysis: can analyze network protocols to ensure they conform to expected behavior.
+- Integration with Security Ecosystem: can integrate with other security devices and systems, such as firewalls, SIEM (Security Information and Event Management) systems, and endpoint protection solutions, to provide a coordinated response to threats.
+
 NGFWs and IPS work together to provide layered security. NGFWs may handle application control, SSL inspection, and basic IPS functions, while dedicated IPS devices can provide deeper inspection and more granular control over network traffic.
 ### 1.1.d Access points
 Access points (APs) enable devices to connect to a network wirelessly, providing mobility and flexibility for users usually in wireless local area networks (WLANs).
+
     - Wireless Connectivity to devices
     - Network Extension: connect to wired network and provide signal to areas where cabling is impractical
     - Client Mobility: Users can move around within the coverage area of multiple access points
@@ -39,10 +44,12 @@ Access points (APs) enable devices to connect to a network wirelessly, providing
     - Traffic Management: manage the flow of data between wireless clients and the network
     - Quality of Service (QoS) - prioritize types of traffic to ensure critical applications receive sufficient bandwidth and reduce latency
     - Mesh Networking: multiple APs form a network of interconnected nodes for dynamic route optimization and redundancy, which enhances coverage and reliability
+
 ### 1.1.e Controllers (Cisco DNA Center and WLC)
 Controllers like Cisco DNA Center and Wireless LAN Controllers (WLC) provide centralized control, automation, monitoring, and optimization of network resources.
 
 Cisco DNA Center is a network management and command center for Cisco's Digital Network Architecture (DNA). It provides a comprehensive solution for managing and automating network operations, enhancing visibility, and ensuring network security.
+
     - Network Automation: supports Zero-Touch Provisioning (ZTP) and configuration of new devices
     - Policy-based Management: centralized approach for network policies
     - Assurance & Analytics: real-time monitoring and analytics for network performance and reliability
@@ -51,7 +58,9 @@ Cisco DNA Center is a network management and command center for Cisco's Digital 
     - Application Visibility & Control: detailed visibility into application performance and user experience
     - Simplified Management: unified interface for wired and wireless networks
 
+
 Wireless LAN Controllers (WLC) are responsible for centralizing the management and control of wireless access points (APs) in a network. They provide a single point of control for all APs, ensuring consistent configuration, security, and performance across the wireless network.
+    
     - Centralized Management: manage multiple APs from a single interface
     - Dynamic RF Management: automatically adjusting channel assignments and power levels of APs to minimize interference and maximize coverage
     - Seamless Routing: client roaming between APs within the same network
@@ -60,6 +69,7 @@ Wireless LAN Controllers (WLC) are responsible for centralizing the management a
     - Guest Access Management: guest access solutions allowing visitors to connect to the netwrok securely witout accessing sensitive internal resources
     - Monitoring & Troubleshooting: real-time monitoring and troubleshooting of wireless network
     - Scalability: manage a large numbers of APs making them suitable for enterprise environments
+
 
 Cisco DNA Center provides a holistic management solution for both wired and wireless networks, focusing on automation, policy-based management, and advanced analytics.
 WLCs specifically manage wireless networks, providing centralized control over APs and ensuring seamless wireless connectivity and security.
