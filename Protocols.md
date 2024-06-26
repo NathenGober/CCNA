@@ -25,6 +25,7 @@
 - BGP: Border Gateway Protocol
 - EIGRP: Enhanced Interior Gateway Routing Protocol
 - RIP: Routing Information Protocol
+- DHCP: Dynamic Host Configuration Protocol - automatically configures and assigns IP addresses, subnet masks, default gateways, and DNS servers for client devices.
 
 # Data Link Layer Protocols (OSI Layer 2)
 - Ethernet: Common LAN technology
